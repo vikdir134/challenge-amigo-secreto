@@ -25,6 +25,3 @@
 
 **Extra:**
 Podemos agregar nuevamente amigos con el boton Añadir esto limpia la lista y el nombre ganador,ojo no elimina los elementos de la lista solo agrega nuevos elementos a la lista ya existente, esto se realizo por si se olvidaron de un amigo, o un participante mas y no quieren volver a ingresar los antiguos amigos
- 
- **Imagenes**
- 
