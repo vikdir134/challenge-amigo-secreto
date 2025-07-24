@@ -36,7 +36,7 @@ function agregarAmigo(){
         console.log(amigos);
     }
     asignarTextoId("listaAmigos", amigos.join("<br>"));//Colocamos <br> para que se muestre en lineas diferentes
-    asignarTextoId("resultado", "");
+    asignarTextoId("resultado", "");//Si despues de generar el amigo secreto se quiere volver a sortear, se limpia el resultado anterior
 }
 //funcion para sortear amigos
 function sortearAmigo() {
@@ -49,5 +49,5 @@ function sortearAmigo() {
     console.log("El amigo sorteado es: " + amigos[numeroAleatorio]);
     //asignarTextoId("amigoSorteado", amigos[numeroAleatorio]);
     asignarTextoId("resultado", "El amigo sorteado es: " + amigos[numeroAleatorio]);
-    asignarTextoId("listaAmigos", "");
+    asignarTextoId("listaAmigos", "");//Se limpia la lista de amigos mostrada en pantalla
 }
