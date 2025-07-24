@@ -10,7 +10,7 @@
 
 **function asignarTextoId(id,texto)**
 
-![Imagen Alt]()
+![Imagen Alt](https://github.com/vikdir134/challenge-amigo-secreto/blob/1c078b3a507052d82ec8cc4270c92c99f812addc/Captura%20de%20pantalla%202025-07-24%20131009.png)
 - Funcion que agrega un texto especificando solo el id, utilizamos innerHTML
 
 **function agregarAmigo()**
