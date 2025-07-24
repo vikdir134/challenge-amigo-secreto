@@ -4,6 +4,7 @@
 - Posibles mejoras, generar un boton de reinicio que despues de generar el amigo secreto podamos borrar toda la lista y volver a buscar
 ### Principales funcionalidades
 **function limpiarCaja() **
+
 ![Imagen Alt](https://github.com/vikdir134/challenge-amigo-secreto/blob/83f53da569104f754c8291d0bacc88d5931ea127/Captura%20de%20pantalla%202025-07-24%20131005.png)
 - Esta funcion limpia la caja de texto donde escribimos el nombre
 
