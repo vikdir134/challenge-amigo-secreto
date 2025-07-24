@@ -36,4 +36,18 @@ function agregarAmigo(){
         console.log(amigos);
     }
     asignarTextoId("listaAmigos", amigos.join("<br>"));//Colocamos <br> para que se muestre en lineas diferentes
+    asignarTextoId("resultado", "");
+}
+//funcion para sortear amigos
+function sortearAmigo() {
+    numeroAleatorio = Math.floor(Math.random() * amigos.length);
+    if (amigos.length === 0) {
+        alert("No hay amigos para sortear. Porfavor, agregue amigos a la lista.");
+        return;
+    }
+    console.log("El numero aleatorio es: " + numeroAleatorio);
+    console.log("El amigo sorteado es: " + amigos[numeroAleatorio]);
+    //asignarTextoId("amigoSorteado", amigos[numeroAleatorio]);
+    asignarTextoId("resultado", "El amigo sorteado es: " + amigos[numeroAleatorio]);
+    asignarTextoId("listaAmigos", "");
 }
