@@ -10,14 +10,6 @@ function asignarTextoId(id,texto){
     let elemento = document.getElementById(id);
     elemento.innerHTML = texto;
 }
-//funcion para verificar nombre repetido
-function nombreRepetido() {
-    nombre=document.getElementById("amigo").value;
-    if(amigos.includes(nombre)){
-        alert("El nombre ya esta incluido en la lista. Porfavor, ingrese un nombre diferente.");
-        limpiarCaja();
-    }
-}
 // funcion para agregar amigo, donde incluimos la validacion de nombre repetido y el limpiar caja
 function agregarAmigo(){
     nombre=document.getElementById("amigo").value;
