@@ -15,7 +15,7 @@
 
 **function agregarAmigo()**
 
-![Imagen Alt]()
+![Imagen Alt[]()](https://github.com/vikdir134/challenge-amigo-secreto/blob/0423b0d31f48785bbb3d7ca87386c9fd4c7d9e5f/Captura%20de%20pantalla%202025-07-24%20131013.png)
 - Esta funcion ingresa en el array creado los amigos ingresados en la caja de texto verificando que no sean campos nulos,no sean repetidos, y finalmente limpian la caja de texto
 
 **function sortearAmigo()**
